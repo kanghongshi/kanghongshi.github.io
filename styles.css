@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F0F0F0;
+    background-color: #F7F7F7;
     color: #333333;
 }
 
 header {
-    background-color: #00796B;
+    background-color: #333333;
     color: #FFFFFF;
     padding: 1em 0;
     position: fixed;
@@ -48,7 +48,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #FFC107; /* Amber accent on hover */
+    color: #FF6F61; /* Coral accent on hover */
 }
 
 .hero {
@@ -74,7 +74,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #00796B;
+    background-color: #333333;
     color: #FFFFFF;
     text-align: center;
     padding: 1em 0;
@@ -83,7 +83,7 @@ footer {
 }
 
 footer a {
-    color: #FFC107;
+    color: #FF6F61;
     text-decoration: none;
 }
 
