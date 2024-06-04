@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f0f0f0;
+    color: #333333;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #008080;
+    color: #ffffff;
     padding: 1em 0;
     position: fixed;
     width: 100%;
@@ -42,7 +42,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-size: 1em;
 }
@@ -54,7 +54,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
     padding-top: 60px; /* To offset the fixed header */
 }
 
@@ -65,11 +65,13 @@ nav ul li a {
 .about {
     padding: 2em 1em;
     text-align: center;
+    background-color: #ffffff;
+    color: #333333;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #008080;
+    color: #ffffff;
     text-align: center;
     padding: 1em 0;
     position: absolute;
