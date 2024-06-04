@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #F0F0F0;
     color: #333333;
 }
 
 header {
-    background-color: #008080;
-    color: #ffffff;
+    background-color: #00796B;
+    color: #FFFFFF;
     padding: 1em 0;
     position: fixed;
     width: 100%;
@@ -42,9 +42,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #FFFFFF;
     text-decoration: none;
     font-size: 1em;
+}
+
+nav ul li a:hover {
+    color: #FFC107; /* Amber accent on hover */
 }
 
 .hero {
@@ -54,7 +58,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #ffffff;
+    color: #FFFFFF;
     padding-top: 60px; /* To offset the fixed header */
 }
 
@@ -65,16 +69,24 @@ nav ul li a {
 .about {
     padding: 2em 1em;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     color: #333333;
 }
 
 footer {
-    background-color: #008080;
-    color: #ffffff;
+    background-color: #00796B;
+    color: #FFFFFF;
     text-align: center;
     padding: 1em 0;
-    position: absolute;
+    position: relative;
     width: 100%;
-    bottom: 0;
+}
+
+footer a {
+    color: #FFC107;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
