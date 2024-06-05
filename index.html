@@ -13,33 +13,39 @@
     <header>
         <nav>
             <div class="logo">Kanghong Shi</div>
-            <ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="collapsible-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="publications.html">Publications</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <div class="social-media-icons">
+                <a href="https://scholar.google.com/citations?user=PZx4ED0XtaEC&hl=en" target="_blank"><i class="fab fa-google"></i></a>
+                <a href="https://www.linkedin.com/in/kanghong-shi/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/shi_kanghong" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
         </nav>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Kanghong Shi</h1>
-            <p>Control Theory Researcher</p>
-        </div>
-    </section>
-
     <section class="about">
         <h2>About Me</h2>
-        <p>personal intro</p>
+        <p>I am a postdoctoral researcher specializing in control theory and machine learning. My current focus is on integrating negative imaginary systems theory with modern machine learning techniques. I am part of the 'Learning for Dynamics and Control' project at [Institution].</p>
     </section>
 
-    <section class="social-media">
-        <h2>Connect with Me</h2>
-        <a href="https://scholar.google.com/citations?user=PZx4ED0XtaEC&hl=en" target="_blank"><i class="fab fa-google-scholar fa-2x"></i></a>
-        <a href="https://www.linkedin.com/in/kanghong-shi/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-        <a href="https://x.com/shi_kanghong" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-    </section>
+    <!-- JavaScript for Collapsible Menu -->
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.collapsible-menu');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+    </script>
 </body>
 </html>
