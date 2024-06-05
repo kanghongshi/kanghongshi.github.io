@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f7f7f7;
@@ -14,13 +14,17 @@ header {
     width: 100%;
     top: 0;
     z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 2rem;
+    width: 100%;
 }
 
 nav ul {
@@ -38,11 +42,17 @@ nav ul li a {
     text-decoration: none;
     color: #333;
     font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #0073e6;
 }
 
 nav .logo {
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
 }
 
 .menu-icon {
@@ -76,25 +86,47 @@ nav .logo {
 }
 
 main {
-    padding-top: 80px; /* To offset the fixed header */
+    padding-top: 100px; /* To offset the fixed header */
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: linear-gradient(to right, #ffffff 50%, #f7f7f7 50%);
 }
 
 .profile {
     max-width: 800px;
-    margin: 2rem auto;
+    margin: 2rem;
     padding: 2rem;
     background: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     border-radius: 8px;
     text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.profile:hover {
+    transform: translateY(-10px);
+}
+
+.profile h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #0073e6;
 }
 
 .profile p {
     line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.profile a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.profile a:hover {
+    text-decoration: underline;
 }
 
 footer {
@@ -113,5 +145,10 @@ footer {
 .social-media-icons a {
     color: #333;
     margin: 0 10px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-media-icons a:hover {
+    color: #0073e6;
 }
