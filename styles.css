@@ -12,8 +12,10 @@ body {
 header {
     background: #333;
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
@@ -24,9 +26,8 @@ header h1 {
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: center;
-    margin: 10px 0;
 }
 
 nav ul li {
@@ -40,7 +41,8 @@ nav ul li a {
 }
 
 .social-media {
-    margin-top: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .social-media a {
