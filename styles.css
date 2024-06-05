@@ -9,140 +9,35 @@ body {
 header {
     background-color: #ffffff;
     padding: 1em 0;
-    position: fixed;
     width: 100%;
+    position: fixed;
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 1em;
 }
 
-nav .logo {
-    font-size: 1.5em;
-    font-weight: bold;
+.nav, .menu-icon {
+    display: none;
 }
 
-nav ul {
+.collapsible-menu {
+    display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
+    padding-left: 0;
 }
 
-nav ul li {
-    display: inline-block;
-    margin-left: 1em;
-}
-
-nav ul li a {
-    color: #333333;
+.collapsible-menu li a {
     text-decoration: none;
-    font-size: 1em;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-nav .menu-icon {
-    display: none;
-    cursor: pointer;
-}
-
-nav .menu-icon i {
-    font-size: 1.5em;
-}
-
-nav ul.collapsible-menu {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-}
-
-nav ul.collapsible-menu li {
-    display: block;
-    text-align: center;
-    padding: 0.5em 0;
-}
-
-nav .social-media-icons {
-    display: flex;
-    align-items: center;
-}
-
-nav .social-media-icons a {
-    margin-left: 1em;
     color: #333333;
-    text-decoration: none;
-    font-size: 1.5em;
+    padding: 10px;
 }
 
-nav .social-media-icons a:hover {
-    color: #FF6F61; /* Change color on hover */
-}
-
-@media (max-width: 768px) {
-    nav ul {
-        display: none;
-    }
-
-    nav .menu-icon {
-        display: block;
-    }
-
-    nav ul.collapsible-menu {
-        display: flex;
-    }
-}
-
-.about {
-    padding: 4em 1em;
-    text-align: center;
-    background-color: #ffffff;
+.footer .social-media-icons a {
     color: #333333;
-    border-bottom: 1px solid #e0e0e0;
+    margin: 0 10px;
 }
 
-@media (max-width: 768px) {
-    nav ul.collapsible-menu {
-        display: none; /* Initially hide the collapsible menu */
-        flex-direction: column;
-    }
-
-    nav ul.collapsible-menu li {
-        display: block;
-        text-align: center;
-        padding: 0.5em 0;
-    }
-
-    nav .menu-icon {
-        display: block;
-    }
-
-    .about {
-        padding: 2em 1em;
-    }
-}
-
-@media (max-width: 480px) {
-    nav .logo {
-        font-size: 1.2em;
-    }
-
-    nav ul li a {
-        font-size: 0.9em;
-    }
-
-    .about {
-        padding: 1em 0.5em;
-    }
-}
+@media (max-width
