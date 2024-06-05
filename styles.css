@@ -155,3 +155,19 @@ section {
 .btn:hover {
     background-color: #FF6F61; /* Coral accent on hover */
 }
+
+.social-media {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.social-media a {
+    margin: 0 1em;
+    color: #333333;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #FF6F61; /* Change color on hover */
+}
+
