@@ -21,98 +21,74 @@ header {
     z-index: 10;
 }
 
-nav {
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
 }
 
-nav ul {
+header .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+header nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
 }
 
-nav ul li {
+header nav ul li {
     margin-left: 20px;
 }
 
-nav ul li a {
+header nav ul li a {
     text-decoration: none;
     color: #333;
     font-size: 1rem;
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
     color: #0073e6;
 }
 
-nav .logo {
-    font-weight: bold;
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-}
-
-.menu-icon {
-    display: none;
-    cursor: pointer;
-}
-
-@media (max-width: 768px) {
-    .menu-icon {
-        display: block;
-    }
-
-    .collapsible-menu {
-        flex-direction: column;
-        position: absolute;
-        background-color: #fff;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        display: none;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    nav ul {
-        flex-direction: column;
-        width: 100%;
-        padding: 0;
-    }
-
-    nav ul li {
-        text-align: center;
-        padding: 10px 0;
-        margin: 0;
-    }
-}
-
 main {
-    padding-top: 80px; /* To offset the fixed header */
+    padding-top: 120px; /* To offset the fixed header */
 }
 
-.intro {
-    background-color: #fff;
-    padding: 2rem 1rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 2rem 0;
-    text-align: center;
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
 }
 
-.intro p {
+.photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.bio {
+    max-width: 600px;
+    padding-left: 2rem;
+}
+
+.bio p {
     font-size: 1.1rem;
     line-height: 1.6;
 }
 
-.intro a {
+.bio a {
     color: #0073e6;
     text-decoration: none;
 }
 
-.intro a:hover {
+.bio a:hover {
     text-decoration: underline;
 }
 
