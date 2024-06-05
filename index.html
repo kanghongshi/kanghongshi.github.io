@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kanghong Shi's Personal Website</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
@@ -23,20 +23,23 @@
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <div class="social-media-icons">
-                <a href="https://scholar.google.com/citations?user=PZx4ED0XtaEC&hl=en" target="_blank"><i class="fab fa-google"></i></a>
-                <a href="https://www.linkedin.com/in/kanghong-shi/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://x.com/shi_kanghong" target="_blank"><i class="fab fa-twitter"></i></a>
-            </div>
         </nav>
     </header>
 
-    <section class="about">
-        <h2>About Me</h2>
-        <p>I am a postdoctoral researcher specializing in control theory and machine learning. My current focus is on integrating negative imaginary systems theory with modern machine learning techniques. I am part of the 'Learning for Dynamics and Control' project at [Institution].</p>
-    </section>
+    <main>
+        <section class="profile">
+            <p>I am a postdoctoral researcher at the <a href="https://www.sydney.edu.au/engineering/our-research/robotics-and-intelligent-systems/australian-centre-for-robotics.html">Australian Centre for Field Robotics</a> at the <a href="https://www.sydney.edu.au/">University of Sydney</a>. I did my PhD in control theory at the <a href="https://ciicadalai.github.io/">CIICADA Lab</a> at the <a href="https://www.anu.edu.au/">Australian National University (ANU)</a>. My research interests include nonlinear systems, networked systems, switched systems, and learning-based control. Explore my <a href="projects.html">projects</a> and <a href="publications.html">publications</a> for more details.</p>
+        </section>
+    </main>
 
-    <!-- JavaScript for Collapsible Menu -->
+    <footer>
+        <div class="social-media-icons">
+            <a href="https://scholar.google.com/citations?user=PZx4ED0XtaEC&hl=en"><i class="fab fa-google"></i></a>
+            <a href="https://www.linkedin.com/in/kanghong-shi/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/shi_kanghong"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
     <script>
         function toggleMenu() {
             const menu = document.querySelector('.collapsible-menu');
