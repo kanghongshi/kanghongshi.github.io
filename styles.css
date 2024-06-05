@@ -1,7 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    background: #f7f7f7;
+    padding: 0;
+    background-color: #f7f7f7;
     color: #333;
     font-size: 16px;
 }
@@ -57,11 +58,11 @@ nav .logo {
     .collapsible-menu {
         flex-direction: column;
         position: absolute;
+        background-color: #fff;
+        top: 60px;
         width: 100%;
         display: none;
-        top: 60px;
-        left: 0;
-        background: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     nav ul {
@@ -72,6 +73,19 @@ nav .logo {
         text-align: center;
         padding: 10px 0;
     }
+}
+
+main {
+    padding-top: 80px; /* To offset the fixed header */
+}
+
+.profile {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
 }
 
 footer {
