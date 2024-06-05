@@ -8,11 +8,23 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
 /* Header Styles */
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 20px;
+    background: #fff;
+    color: #333;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,25 +47,15 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
-.social-media {
-    display: flex;
-    align-items: center;
-}
-
-.social-media a {
-    color: #fff;
-    margin: 0 10px;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.social-media a:hover {
-    color: #ff6347;
+nav ul li a:hover {
+    background: #ddd;
 }
 
 /* Hero Section Styles */
@@ -74,21 +76,11 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #ff6347;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
 /* Main Content Styles */
-main {
-    padding: 20px;
+main .container {
     background: #fff;
-    margin: 20px auto;
-    max-width: 900px;
+    margin: 20px 0;
+    padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -116,10 +108,11 @@ ul li {
 
 /* Contact Section Styles */
 #contact {
-    background: #333;
-    color: #fff;
+    background: #fff;
+    color: #333;
     padding: 20px;
     text-align: center;
+    border-top: 1px solid #ddd;
 }
 
 #contact p {
@@ -131,10 +124,26 @@ ul li {
     text-decoration: none;
 }
 
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #ff6347;
+}
+
 /* Footer Styles */
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
-    color: #fff;
+    background: #fff;
+    color: #333;
+    border-top: 1px solid #ddd;
 }
