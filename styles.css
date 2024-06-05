@@ -1,96 +1,85 @@
-/* General Styles */
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Georgia', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
     color: #333;
-    line-height: 1.6;
+    background-color: #f9f9f9;
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Header Styles */
-header {
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px 0;
-}
-
-header .container {
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
 }
 
-header h1 {
+.header-left h1 {
+    margin: 0;
     font-size: 24px;
-    margin: 0;
+    color: #444;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin: 0 10px;
-}
-
-nav ul li a {
+.header-right nav a {
+    margin-left: 20px;
     text-decoration: none;
-    color: #333;
-    padding: 5px 10px;
-    transition: background 0.3s, color 0.3s;
+    color: #444;
+    font-size: 16px;
+    transition: color 0.3s;
 }
 
-nav ul li a:hover {
-    background: #007bff;
-    color: #fff;
-    border-radius: 5px;
+.header-right nav a:hover {
+    color: #007acc;
 }
 
-/* Hero Section Styles */
-.hero {
-    background: url('path-to-your-image.jpg') no-repeat center center/cover;
-    color: #fff;
-    text-align: center;
-    padding: 120px 20px;
+main {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.bio {
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 }
 
-.hero .container {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 40px;
-    border-radius: 10px;
+.bio img {
+    min-width: 150px; /* Ensures the image does not shrink */
+    margin-right: 20px; /* Adds space between the image and the text */
+    margin-left: 20px; /* Adds space between the image and the text */
 }
 
-.hero h2 {
-    font-size: 48px;
-    margin-bottom: 10px;
+.bio-text {
+    margin-left: 18px; /* Adjust the value to move the text to the right */
+    flex-grow: 1; /* Allows the text to take the remaining space */
+    font-size: 18px; /* Adjust the font size if needed */
+    line-height: 1.6; /* Adjust the line height if needed */
+    color: #555; /* Adjust the text color if needed */
+  	margin-left: 80px;
 }
 
-.hero p {
-    font-size: 24px;
-    margin-bottom: 20px;
+.social-media a {
+    margin-right: 10px;
+    transition: transform 0.3s;
 }
 
-/* Main Content Styles */
-main .container {
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin-bottom: 20px;
-    padding: 40px;
+.social-media a:hover {
+    transform: scale(1.1);
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
 }
 
 section {
@@ -100,67 +89,5 @@ section {
 section h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #007bff;
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 10px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-ul li {
-    background: #f8f8f8;
-    margin-bottom: 10px;
-    padding: 15px;
-    border-radius: 5px;
-    border: 1px solid #eaeaea;
-}
-
-/* Contact Section Styles */
-#contact {
-    background: #fff;
-    text-align: center;
-    padding: 40px 20px;
-    border-top: 1px solid #eaeaea;
-}
-
-#contact p {
-    margin: 0;
-    font-size: 18px;
-}
-
-#contact a {
-    color: #007bff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-#contact a:hover {
-    color: #0056b3;
-}
-
-.social-media {
-    margin-top: 20px;
-}
-
-.social-media a {
     color: #333;
-    margin: 0 15px;
-    font-size: 24px;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.social-media a:hover {
-    color: #007bff;
-}
-
-/* Footer Styles */
-footer {
-    background: #fff;
-    text-align: center;
-    padding: 20px 0;
-    border-top: 1px solid #eaeaea;
 }
