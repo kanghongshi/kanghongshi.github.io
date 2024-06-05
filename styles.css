@@ -77,15 +77,24 @@ nav .logo {
 
 main {
     padding-top: 80px; /* To offset the fixed header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .profile {
     max-width: 800px;
     margin: 2rem auto;
-    padding: 1rem 2rem;
+    padding: 2rem;
     background: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     border-radius: 8px;
+    text-align: center;
+}
+
+.profile p {
+    line-height: 1.6;
 }
 
 footer {
