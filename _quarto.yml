@@ -8,6 +8,7 @@ execute:
 
 website:
   title: "Kanghong Shi"
+  site-url: "https://kanghongshi.com"
   navbar:
     pinned: true         # <--- ADD THIS LINE HERE
     collapse: true       # (Optional) Ensures it works well on mobile
