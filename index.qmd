@@ -1,0 +1,52 @@
+---
+pagetitle: "Kanghong Shi"
+page-layout: full
+---
+
+::: {.home-layout}
+
+::: {.home-left}
+![](images/Kanghong_pic.JPG){.profile-photo}
+
+::: {.name-block}
+**Kanghong Shi**<br>
+Research Fellow<br>
+Monash University
+:::
+
+::: {.links}
+[Email](mailto:kanghong.shi@monash.edu)
+:::
+
+::: {.address}
+**Address:** 16 Alliance Lane, 
+Monash University (Clayton)  
+Melbourne, VIC, Australia
+:::
+
+:::
+
+::: {.home-right}
+
+::: {.intro}
+I am a control theorist currently serving as a Postdoctoral Research Fellow at
+[Monash University](https://www.monash.edu/) (Clayton), working with
+[A/Prof. Liz Ratnam](https://www.monash.edu/engineering/lizratnam).
+
+I obtained a PhD in Engineering from the
+[Australian National University](https://www.anu.edu.au) for my work on **negative imaginary systems theory** and its applications, under the supervision of [Prof. Ian Petersen](https://eng.anu.edu.au/people/ian-petersen) and the co-supervision of [Dr. Igor Vladimirov](https://eng.anu.edu.au/people/igor-vladimirov).
+
+Prior to joining Monash University, I was a Postdoctoral Research Associate at the [University of Sydney](https://www.sydney.edu.au/), where I worked with [Prof. Ian Manchester](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/ian-manchester.html).
+
+My research interests include nonlinear systems, discrete-time systems, hybrid systems, learning-based control, multi-agent systems, and power systems.
+:::
+
+<hr style="margin: 2rem 0; opacity: 0.3;">
+
+::: {.cta}
+[Research](research.qmd){.btn-primary}
+[CV](CV.qmd){.btn-secondary}
+:::
+
+
+

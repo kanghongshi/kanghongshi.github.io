@@ -1,0 +1,74 @@
+---
+title: "Negative Imaginary Systems Theory"
+pagetitle: "NI Systems | Kanghong Shi"
+toc: true
+page-layout: article
+---
+
+[< Back to Research Themes](../research.qmd)
+
+## 1. What is a Negative Imaginary System?
+
+Negative Imaginary (NI) systems are a broad class of dynamical systems defined by how they exchange energy with the environment.
+
+A physical interpretation of the NI property is via the work-energy balance relation. A general nonlinear system (with input $u$ and output $y$) is **NI** if there exists a storage function $V(x) \geq 0$ such that:
+
+$$
+\dot{V}(x) \leq u^\top \dot{y}
+$$
+
+* **Left Side ($\dot{V}$):** The rate of change of the system's internal stored energy $V$, including kinetic and potential energy.
+* **Right Side ($u^\top \dot{y}$):** The rate of change of the work done (the power injected) by the input force ($u$).
+
+---
+
+## 2. Real-World Examples
+
+The NI property naturally arises in a wide variety of physical systems.
+
+### Mechanical Systems with Collocated Sensors
+A typical example of an NI system is a mechanical structure with **collocated force actuators and position sensors**.
+
+Consider a generic flexible mechanical body (e.g., a beam, a bridge, or a robotic link) with the following input and output ports:
+
+* **Input ($u$):** Force (or Torque) applied at a specific point.
+* **Output ($y$):** Displacement (or Angle) measured at the *same* point.
+
+
+
+In such a configuration, the energy dissipation inequality shown above is guaranteed by the conservation of energy. Hence, regardless of the complexity of the structure, the relationship between the applied force and the resulting displacement inherently satisfies the NI property.
+
+Below are some example NI systems in engineering applications:
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+### 🔬 Nanopositioning
+In Atomic Force Microscopy (AFM), piezoelectric actuators are used to scan samples. The dynamics from applied voltage (Force) to scanner displacement (Position) are NI.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### 🦾 Robotic Arms
+Lightweight or soft robotic manipulators often exhibit significant flexibility. The dynamic relationship between the torque applied at a joint and the resulting joint angle captures these flexible modes and satisfies the NI property.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### ⚡ Power Systems
+Modern power grids can be modeled as NI systems. Specifically, the "Swing Equation" which relates power injection to rotor angle is an NI dynamic, essential for frequency stability.
+:::
+:::
+
+---
+
+## 3. Stability
+
+The core utility of NI theory is robust stability. A fundamental result is that an NI system can be stabilized using another strictly NI system in a **positive feedback** configuration.
+
+## 4. My Work
+
+One of my research contributions is establishing stability results for **nonlinear** NI systems. See the following articles:
+
+1. **[Robust output feedback consensus for networked identical nonlinear negative-imaginary systems](https://www.sciencedirect.com/science/article/pii/S2405896321005395)** *(MTNS 2020)*
+
+2. **[Output feedback consensus for networked heterogeneous nonlinear negative-imaginary systems](https://ieeexplore.ieee.org/abstract/document/9947214)** *(IEEE TAC 2023)*
+
+Note that these two articles only consider single NI systems and networked NI systems in a continuous-time setting. For other settings and the motivations of studying them, please see the corresponding <a href="../research.qmd" style="font-weight: 700; color: #000; text-decoration: none; border-bottom: 2px solid #000; margin: 0 2px; transition: all 0.2s ease;">Research Themes</a>.

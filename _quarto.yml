@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: docs
+  resources:          # <--- ADD THIS SECTION
+    - "images/"       # <--- ADD THIS LINE
+execute:
+  freeze: auto
+
+website:
+  title: "Kanghong Shi"
+  navbar:
+    pinned: true         # <--- ADD THIS LINE HERE
+    collapse: true       # (Optional) Ensures it works well on mobile
+    right:
+      # --- Text Links (First) ---
+      - href: index.qmd
+        text: Home
+      - href: CV.qmd
+        text: CV
+      - href: research.qmd
+        text: Research
+
+      # --- Social Icons (Second) ---
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=PZx4ED0XtaEC&hl=en
+        aria-label: "Google Scholar"
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kanghong-shi/
+        aria-label: "LinkedIn"
+        target: _blank
+      - icon: twitter-x
+        href: https://x.com/shi_kanghong?s=21&t=wSHN7rG4cN3q3tMVLrpNig
+        aria-label: "X.com"
+        target: _blank
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    fontsize: 1.1em
+    # This controls the width of the standard Quarto columns
+    grid:
+      margin-width: 170px  # Makes the TOC column smaller (default is ~250px)

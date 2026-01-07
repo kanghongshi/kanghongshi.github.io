@@ -1,0 +1,60 @@
+---
+pagetitle: "Research Portfolio | Kanghong Shi"
+title: "Research Portfolio"
+toc: false
+page-layout: article
+---
+
+My research focuses on the control of **negative imaginary (NI) systems**, which naturally arise in many physical engineering systems.
+
+I have established several theoretical results on the stability of NI systems under different control scenarios. More recently, I have been exploring how these ideas can be extended to modern control settings, where computation, learning, and digital implementation play a central role.
+
+My work has demonstrated its utility across a range of engineering systems, including nanopositioning in atomic force microscopy, robotic control, and power systems.
+
+
+::: {.research-grid}
+
+::: {.research-card}
+<div class="card-image" style="background-image: url('images/ni-card.png');"></div>
+::: {.card-content}
+### Negative Imaginary Systems
+A control framework for the stabilization of nonlinear NI systems.
+
+[Read Topic →](research/negative-imaginary.qmd){.card-link}
+:::
+:::
+
+::: {.research-card}
+<div class="card-image" style="background-image: url('images/networked-ni.png');"></div>
+::: {.card-content}
+### Multi-Agent Nonlinear NI Systems
+An output feedback consensus protocol for networked nonlinear NI systems.
+
+[Read Topic →](research/networked-NI.qmd){.card-link}
+:::
+:::
+
+::: {.research-card}
+<div class="card-image" style="background-image: url('images/dt-ni.png');"></div>
+::: {.card-content}
+### Discrete-Time NI Systems
+Digital control of negative imaginary systems under zero-order hold sampling.
+
+[Read Topic →](research/discrete-time-ni.qmd){.card-link}
+:::
+:::
+
+::: {.research-card style="opacity: 0.8; background-color: #f4f4f4;"}
+<div class="card-image" style="background-image: url('images/wip-drafting.jpg'); filter: grayscale(30%);"></div>
+
+::: {.card-content}
+### More Research Coming Soon
+<span style="background: #e0e0e0; color: #555; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; text-transform: uppercase;">Under Construction</span>
+
+I am currently documenting additional research projects, including work on **Negative Imaginary Neural ODEs**, **State Feedback Equivalence to NI systems**, **Applciations in Nanopositioning of AFMs** and **Applications in Power Systems**. Check back soon for updates.
+
+<span class="card-link" style="border-bottom: 2px dashed #bbb; color: #888; cursor: default;">Details Loading...</span>
+:::
+:::
+
+:::

@@ -1,0 +1,401 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kanghong Shi",
+    "section": "",
+    "text": "Kanghong Shi Research Fellow Monash University\n\n\nEmail\n\n\nAddress: 16 Alliance Lane, Monash University (Clayton)\nMelbourne, VIC, Australia\n\n\n\n\nI am a control theorist currently serving as a Postdoctoral Research Fellow at Monash University (Clayton), working with A/Prof. Liz Ratnam.\nI obtained a PhD in Engineering from the Australian National University for my work on negative imaginary systems theory and its applications, under the supervision of Prof. Ian Petersen and the co-supervision of Dr. Igor Vladimirov.\nPrior to joining Monash University, I was a Postdoctoral Research Associate at the University of Sydney, where I worked with Prof. Ian Manchester.\nMy research interests include nonlinear systems, discrete-time systems, hybrid systems, learning-based control, multi-agent systems, and power systems.\n\n\n\nResearch CV"
+  },
+  {
+    "objectID": "index.html#kanghong-shi",
+    "href": "index.html#kanghong-shi",
+    "title": "Home",
+    "section": "",
+    "text": "Research Fellow, Monash University\nI work on control theory and its applications to power systems and robotics.\n\nEmail: kanghong.shi@monash.edu\nGoogle Scholar: https://scholar.google.com/citations?user=PZx4ED0XtaEC&hl=en\nCV: (later add a PDF link)"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Home",
+    "section": "",
+    "text": "Research Fellow, Monash University\nI work on control theory and its applications to power systems and robotics.\n\nEmail\nGoogle Scholar\nLinkedin\n\n\n\n\n&lt;h2 style=\"margin-top:0;\"&gt;Kanghong Shi&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Research Fellow&lt;/strong&gt;, Monash University&lt;/p&gt;\n&lt;p&gt;\n  I work on control theory (stability/robustness) and applications in\n  power systems and robotics. (Replace with 2–3 sentences you like.)\n&lt;/p&gt;\n&lt;p&gt;\n  &lt;a class=\"btn btn-primary\" href=\"mailto:YOUR_EMAIL\"&gt;Email&lt;/a&gt;\n  &lt;a class=\"btn btn-outline-secondary\" href=\"YOUR_SCHOLAR_LINK\"&gt;Google Scholar&lt;/a&gt;\n  &lt;a class=\"btn btn-outline-secondary\" href=\"YOUR_GITHUB_LINK\"&gt;GitHub&lt;/a&gt;\n&lt;/p&gt;"
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "Kanghong Shi",
+    "section": "",
+    "text": "Postdoctoral Research Fellow Oct 2025 – Present\n\nMonash University, Department of Electrical and Computer Systems Engineering\n\nSupervisor: A/Prof. Liz Ratnam\nProject: Building Australia’s Electric Vehicle Fast Charging Infrastructure\n\n\n\n\nPostdoctoral Research Associate Mar 2024 – Oct 2025\n\nUniversity of Sydney, Australian Centre for Robotics\n\nSupervisor: Prof. Ian Manchester\nProject: Robust Data-Driven Control for Safety-Critical Systems"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research Portfolio",
+    "section": "",
+    "text": "My research focuses on the control of negative imaginary (NI) systems, which naturally arise in many physical engineering systems.\nI have established several theoretical results on the stability of NI systems under different control scenarios. More recently, I have been exploring how these ideas can be extended to modern control settings, where computation, learning, and digital implementation play a central role.\nMy work has demonstrated its utility across a range of engineering systems, including nanopositioning in atomic force microscopy, robotic control, and power systems.\n\n\n\n\n\n\nNegative Imaginary Systems\nBridging the gap between robust continuous-time theory and practical digital implementation for flexible structures.\nExplore Topic →\n\n\n\n\n\n\n\nNonlinear Control & Learning\nDeveloping stability guarantees for complex nonlinear dynamics and learning-based controllers like Neural ODEs.\nExplore Topic →\n\n\n\n\n\n\n\nPower Systems & Smart Grids\nApplying control-theoretic methods to ensure frequency and voltage stability in modern, renewable-heavy power networks.\nExplore Topic →"
+  },
+  {
+    "objectID": "research.html#overview",
+    "href": "research.html#overview",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on the intersection of robust control theory and mechanical systems. I am interested in how energy-based properties (like passivity and negative imaginariness) can be exploited to guarantee stability in complex feedback loops."
+  },
+  {
+    "objectID": "research.html#themes",
+    "href": "research.html#themes",
+    "title": "Research",
+    "section": "Themes",
+    "text": "Themes\n\nTheme 1\nShort paragraph + (optional) selected links.\n\n\nTheme 2\nShort paragraph + (optional) selected links."
+  },
+  {
+    "objectID": "CV.html#overview",
+    "href": "CV.html#overview",
+    "title": "Research",
+    "section": "",
+    "text": "Write 3–6 lines describing your research direction."
+  },
+  {
+    "objectID": "CV.html#themes",
+    "href": "CV.html#themes",
+    "title": "Research",
+    "section": "Themes",
+    "text": "Themes\n\nTheme 1\nShort paragraph + (optional) selected links.\n\n\nTheme 2\nShort paragraph + (optional) selected links."
+  },
+  {
+    "objectID": "research.html#key-themes",
+    "href": "research.html#key-themes",
+    "title": "Research",
+    "section": "Key Themes",
+    "text": "Key Themes\n\n1. Negative Imaginary Systems\nI investigate the properties of Negative Imaginary (NI) systems, which are crucial for the control of flexible structures and highly resonant systems. * Focus: Extending NI theory to discrete-time domains and zero-order hold sampling. * Application: Nanopositioning stages and flexible robotic arms.\n\n\n2. Absolute Stability & Energy Shaping\nI work on stability criteria for nonlinear systems, using potential energy shaping techniques to stabilize mechanical systems without canceling natural dynamics. * Focus: Absolute stability of nonlinear NI systems. * Goal: Robust controllers that preserve the physical intuition of the system."
+  },
+  {
+    "objectID": "research.html#selected-publications",
+    "href": "research.html#selected-publications",
+    "title": "Research",
+    "section": "Selected Publications",
+    "text": "Selected Publications\n\nShi, K., [Co-authors]. “Discrete-time Negative Imaginary Control Systems using Zero-Order Hold Sampling” (Working Draft, 2025).\nShi, K., [Co-authors]. “Absolute Stability of Nonlinear Negative Imaginary Systems with Application to Potential Energy Shaping” (Working Draft, 2025)."
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Kanghong Shi",
+    "section": "",
+    "text": "I am a Postdoctoral Research Fellow at Monash University (Clayton Campus), working on control theory and mechanical systems.\nMy primary research interests include:\n\nNegative Imaginary Systems\nAbsolute Stability\nPotential Energy Shaping\n\nI am currently investigating discrete-time control strategies using zero-order hold sampling for complex mechanical applications."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Kanghong Shi",
+    "section": "Education",
+    "text": "Education\nPhD in Engineering | University of [Your Prev Uni] | 20XX B.E. in Automation | [Your Uni] | 20XX"
+  },
+  {
+    "objectID": "CV.html#academic-positions",
+    "href": "CV.html#academic-positions",
+    "title": "Kanghong Shi",
+    "section": "",
+    "text": "Postdoctoral Research Fellow Oct 2025 – Present\n\nMonash University, Department of Electrical and Computer Systems Engineering\n\nSupervisor: A/Prof. Liz Ratnam\nProject: Building Australia’s Electric Vehicle Fast Charging Infrastructure\n\n\n\n\nPostdoctoral Research Associate Mar 2024 – Oct 2025\n\nUniversity of Sydney, Australian Centre for Robotics\n\nSupervisor: Prof. Ian Manchester\nProject: Robust Data-Driven Control for Safety-Critical Systems"
+  },
+  {
+    "objectID": "CV.html#education",
+    "href": "CV.html#education",
+    "title": "Kanghong Shi",
+    "section": "Education",
+    "text": "Education\n\n\nDoctor of Philosophy Jul 2019 – Jan 2024\n\nAustralian National University, School of Engineering\n\nSupervisors: Prof. Ian Petersen & Dr. Igor Vladimirov\nThesis: New Results in Negative Imaginary Systems Theory\n\n\n\n\nBachelor of Engineering Jul 2015 – Jul 2019\n\nAustralian National University\n\nGrade: First-class Honours (H1)\nMajors: Electronic and Communication Systems & Mechatronic Systems"
+  },
+  {
+    "objectID": "CV.html#selected-publications",
+    "href": "CV.html#selected-publications",
+    "title": "Kanghong Shi",
+    "section": "Selected Publications",
+    "text": "Selected Publications\n\nJournal Articles\n\nK. Shi, I. G. Vladimirov, and I. R. Petersen. “Title of Paper”, IEEE Transactions on Automatic Control, Vol. XX, 202X.\n\n\n\nConference Proceedings\n\nK. Shi, et al. “Title of Conference Paper”, IEEE Conference on Decision and Control (CDC), 2024."
+  },
+  {
+    "objectID": "CV.html#teaching-experience",
+    "href": "CV.html#teaching-experience",
+    "title": "Kanghong Shi",
+    "section": "Teaching Experience",
+    "text": "Teaching Experience\n\nTutor / Teaching Assistant, Australian National University\nCourse Name (Year), Course Name (Year)\nTutor, University of Sydney\nCourse Name (Year)"
+  },
+  {
+    "objectID": "CV.html#professional-service",
+    "href": "CV.html#professional-service",
+    "title": "Kanghong Shi",
+    "section": "Professional Service",
+    "text": "Professional Service\n\nReviewer: IEEE Transactions on Automatic Control, Automatica, IEEE TCST.\nMember: IEEE, CSS."
+  },
+  {
+    "objectID": "CV.html#services",
+    "href": "CV.html#services",
+    "title": "Kanghong Shi",
+    "section": "Services",
+    "text": "Services\n\n\nReviewer"
+  },
+  {
+    "objectID": "CV.html#publications",
+    "href": "CV.html#publications",
+    "title": "Kanghong Shi",
+    "section": "Publications",
+    "text": "Publications\n\nSee also:\n  Google Scholar \n|\n See the  Research  page for more details. \n\n\nJournal Articles\n\nK. Shi, E. Khodabakhshi, P. Biswas, I. R. Petersen, and S. R. Moheimani, “Discrete-time HIGS based digital control of negative imaginary systems,” Control Engineering Practice, vol. 163, p. 106386, 2025.\nK. Shi, I. R. Petersen, and I. G. Vladimirov, “Necessary and sufficient conditions for state feedback equivalence to negative imaginary systems,” IEEE Transactions on Automatic Control, vol. 69, no. 7, pp. 4657–4672, 2024.\nK. Shi, N. Nikooienejad, I. R. Petersen, and S. O. R. Moheimani, “Negative imaginary control using hybrid integrator-gain systems: Application to mems nanopositioner,” IEEE Transactions on Control Systems Technology, vol. 32, no. 3, pp. 718–730, 2024.\nK. Shi, I. R. Petersen, and I. G. Vladimirov, “Output feedback consensus for networked heterogeneous nonlinear negative-imaginary systems with free body motion,” IEEE Transactions on Automatic Control, vol. 68, no. 9, pp. 5536–5543, 2023.\nK. Shi, I. R. Petersen, and I. G. Vladimirov, “Making nonlinear systems negative imaginary via state feedback,” Automatica, vol. 155, p. 111127, 2023.\n\n\n\nConference Proceedings\n\nK. Shi, R. Wang, and I. R. Manchester, “Negative imaginary neural ODEs: Learning to control mechanical systems with stability guarantees,” in Proceedings of the 13th IFAC Symposium on Nonlinear Control Systems, 2025. (To appear)\nK. Shi and I. R. Petersen, “Hybrid integrator-gain system based integral resonant controllers for negative imaginary systems,” in 2024 IEEE 63rd Conference on Decision and Control (CDC), pp. 2379–2384, 2024.\nY. Chen, K. Shi, I. R. Petersen, and E. L. Ratnam, “Unified control of voltage, frequency and angle in electrical power systems: A passivity and negative-imaginary based approach,” in 2024 IEEE 63rd Conference on Decision and Control (CDC), pp. 5783–5788, 2024.\nK. Shi, I. R. Petersen, and I. G. Vladimirov, “Discrete-time negative imaginary systems from ZOH sampling,” IFAC-PapersOnLine, vol. 58, no. 17, pp. 214–219, 2024.\nY. Chen, K. Shi, I. R. Petersen, and E. L. Ratnam, “On the stability of networked nonlinear negative imaginary systems with applications to electrical power systems,” IFAC-PapersOnLine, vol. 58, no. 17, pp. 220–225, 2024.\nK. Shi and I. R. Petersen, “Digital control of negative imaginary systems: a discrete-time hybrid integrator-gain system approach,” in 2024 European Control Conference (ECC), pp. 2611–2616, 2024.\nY. Chen, K. Shi, I. R. Petersen, and E. L. Ratnam, “A nonlinear negative imaginary systems framework with actuator saturation for control of electrical power systems,” in 2024 European Control Conference (ECC), pp. 2399–2404, 2024.\nK. Shi, I. R. Petersen, and I. G. Vladimirov, “Nonlinear negative imaginary systems with switching,” IFAC-PapersOnLine, vol. 56, no. 2, pp. 3936–3941, 2023.\nK. Shi, I. R. Petersen, and I. G. Vladimirov, “Negative imaginary state feedback equivalence for a class of nonlinear systems,” IFAC-PapersOnLine, vol. 56, no. 1, pp. 288–293, 2023.\nK. Shi, I. R. Petersen, and I. G. Vladimirov, “Making nonlinear systems negative imaginary via state feedback,” in 2022 IEEE 61st Conference on Decision and Control (CDC), pp. 3827–3832, 2022.\nK. Shi, N. Nikooienejad, I. R. Petersen, and S. O. R. Moheimani, “A negative imaginary approach to hybrid integrator-gain system control,” in 2022 IEEE 61st Conference on Decision and Control (CDC), pp. 1968–1973, 2022.\nK. Shi, I. R. Petersen, and I. G. Vladimirov, “Negative imaginary state feedback equivalence for systems of relative degree one and relative degree two,” in 2021 60th IEEE Conference on Decision and Control (CDC), pp. 3948–3953, 2021.\nK. Shi, I. G. Vladimirov, and I. R. Petersen, “Robust output feedback consensus for networked identical nonlinear negative-imaginary systems,” IFAC-PapersOnLine, vol. 54, no. 9, pp. 239–244, 2021.\nK. Shi, I. G. Vladimirov, and I. R. Petersen, “Robust output feedback consensus for networked heterogeneous nonlinear negative-imaginary systems,” in 2020 Australian and New Zealand Control Conference (ANZCC), pp. 214–219, 2020.\n\n\n\nPreprints & Under Review\n\nK. Shi, R. Wang, and I. R. Manchester, “Negative imaginary neural ODEs: Learning to control mechanical systems with stability guarantees,” Submitted to Automatica, 2025.\nY. Chen, K. Shi, I. R. Petersen, and E. L. Ratnam, “Nonlinear negative imaginary systems with actuator saturation: An application to power systems,” Submitted to IEEE Transactions on Automatic Control, 2025.\nK. Shi, I. R. Petersen, and I. G. Vladimirov, “Discrete-time negative imaginary control systems using zero-order hold sampling,” Submitted to Automatica, 2025.\nE. L. Ratnam, Y. Chen, K. Shi, and I. R. Petersen, “Negative imaginary grids,” Invited paper in preparation for Annual Review of Control, Robotics, and Autonomous Systems, 2025.\nK. Shi, E. Khodabakhshi, P. Biswas, I. R. Petersen, and S. O. R. Moheimani, “Discrete-time integral resonant control of negative imaginary systems: Application to a high-speed nanopositioner,” arXiv preprint:2406.16263, 2024."
+  },
+  {
+    "objectID": "research/negative-imaginary.html",
+    "href": "research/negative-imaginary.html",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "",
+    "text": "&lt; Back to Research Themes"
+  },
+  {
+    "objectID": "research/negative-imaginary.html#the-challenge-controlling-flexible-structures",
+    "href": "research/negative-imaginary.html#the-challenge-controlling-flexible-structures",
+    "title": "Discrete-Time Negative Imaginary Systems",
+    "section": "The Challenge: Controlling Flexible Structures",
+    "text": "The Challenge: Controlling Flexible Structures\nMany high-precision engineering systems—such as atomic force microscopes (AFM), optical mirrors, and flexible robotic arms—are characterized by highly resonant dynamics. These systems are often modeled as collections of springs and masses.\nNegative Imaginary (NI) systems theory provides a powerful tool for controlling these structures. The key benefit of NI controllers is robust stability: they guarantee stability even if the system has unmodeled high-frequency modes (spillover), provided the system remains NI."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#the-gap-the-digital-implementation-problem",
+    "href": "research/negative-imaginary.html#the-gap-the-digital-implementation-problem",
+    "title": "Discrete-Time Negative Imaginary Systems",
+    "section": "The Gap: The Digital Implementation Problem",
+    "text": "The Gap: The Digital Implementation Problem\nWhile NI theory is well-established for continuous-time (analog) systems, modern control is almost exclusively implemented using digital computers.\nDirectly discretizing a continuous NI system (e.g., using Tustin’s method) often destroys the “Negative Imaginary” property. This leads to a dangerous gap: a controller proven stable in theory may become unstable when implemented digitally."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#my-contribution-a-discrete-time-framework",
+    "href": "research/negative-imaginary.html#my-contribution-a-discrete-time-framework",
+    "title": "Discrete-Time Negative Imaginary Systems",
+    "section": "My Contribution: A Discrete-Time Framework",
+    "text": "My Contribution: A Discrete-Time Framework\nMy research develops a rigorous framework for Discrete-Time Negative Imaginary Systems, specifically focusing on the effects of Zero-Order Hold (ZOH) sampling.\nWe have established conditions under which the NI property is preserved during sampling, allowing for the direct digital design of robust controllers.\n\n\n\n\n\n\nNoteDefinition: Discrete-Time NI System\n\n\n\nA square real rational proper transfer function matrix \\(M(z)\\) is Discrete-Time Negative Imaginary if:\n\n\\(M(z)\\) has no poles in \\(\\{z \\in \\mathbb{C} : |z| &gt; 1\\}\\).\nFor all \\(\\theta \\in (0, \\pi)\\) such that \\(j(M(e^{j\\theta}) - M^*(e^{j\\theta}))\\) is Hermitian, we have: \\[\nj(M(e^{j\\theta}) - M^*(e^{j\\theta})) \\geq 0\n\\]\n\nThis condition ensures that the “phase lag” of the system behaves similarly to a passive system, but shifted by 90 degrees."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#key-publications",
+    "href": "research/negative-imaginary.html#key-publications",
+    "title": "Discrete-Time Negative Imaginary Systems",
+    "section": "Key Publications",
+    "text": "Key Publications\n\nJournal Articles\n\nK. Shi, E. Khodabakhshi, P. Biswas, I. R. Petersen, and S. R. Moheimani, “Discrete-time HIGS based digital control of negative imaginary systems,” Control Engineering Practice, vol. 163, 2025.\nK. Shi, I. R. Petersen, and I. G. Vladimirov, “Discrete-time negative imaginary control systems using zero-order hold sampling,” Submitted to Automatica, 2025.\n\n\n\nConference Proceedings\n\nK. Shi, I. R. Petersen, and I. G. Vladimirov, “Discrete-time negative imaginary systems from ZOH sampling,” IFAC-PapersOnLine, 2024.\nK. Shi and I. R. Petersen, “Digital control of negative imaginary systems: a discrete-time hybrid integrator-gain system approach,” European Control Conference (ECC), 2024."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#what-is-a-negative-imaginary-system",
+    "href": "research/negative-imaginary.html#what-is-a-negative-imaginary-system",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "1. What is a Negative Imaginary System?",
+    "text": "1. What is a Negative Imaginary System?\nNegative Imaginary (NI) systems are a broad class of dynamical systems defined by how they exchange energy with the environment.\nA physical interpretation of the NI property is via the work-energy balance relation. A general nonlinear system (with input \\(u\\) and output \\(y\\)) is NI if there exists a storage function \\(V(x) \\geq 0\\) such that:\n\\[\n\\dot{V}(x) \\leq u^\\top \\dot{y}\n\\]\n\nLeft Side (\\(\\dot{V}\\)): The rate of change of the system’s internal stored energy \\(V\\), including kinetic and potential energy.\nRight Side (\\(u^\\top \\dot{y}\\)): The rate of change of the work done (the power injected) by the input force (\\(u\\))."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#why-is-this-useful",
+    "href": "research/negative-imaginary.html#why-is-this-useful",
+    "title": "Negative Imaginary Systems",
+    "section": "Why is this useful?",
+    "text": "Why is this useful?\nThe most powerful feature of NI theory is the Simple Stability Condition.\nIf you connect a Negative Imaginary Plant \\(G(s)\\) with a Negative Imaginary Controller \\(C(s)\\) in a positive feedback loop, the closed-loop system is stable if and only if the DC Gain condition is met:\n\\[\n\\lambda_{max}(G(0)C(0)) &lt; 1\n\\]\nImplication: This guarantees Robust Stability. Even if the structure has high-frequency resonance modes that you didn’t model (spillover), the system remains stable as long as those modes maintain the NI phase property."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#my-contribution-the-discrete-time-frontier",
+    "href": "research/negative-imaginary.html#my-contribution-the-discrete-time-frontier",
+    "title": "Negative Imaginary Systems",
+    "section": "My Contribution: The Discrete-Time Frontier",
+    "text": "My Contribution: The Discrete-Time Frontier\nWhile the continuous-time theory above is well-established, implementing these controllers on digital hardware presents a challenge.\n\nThe Problem\nDirectly discretizing an NI system (e.g., via Tustin transformation) often destroys the NI phase property. This means a digital controller might cause instability even if the continuous design was perfect.\n\n\nMy Solution: ZOH-NI Framework\nMy research developed the Discrete-Time Negative Imaginary (DT-NI) framework specifically for systems with Zero-Order Hold (ZOH) samplers.\n\nDefinition: We proposed a frequency-domain definition for DT-NI systems involving the unit circle.\nPreservation: We proved conditions under which ZOH sampling preserves the NI property.\nSynthesis: We developed methods to synthesize digital controllers that guarantee closed-loop stability for sampled-data NI systems.\n\n\n\nKey Papers on this Topic\n\nK. Shi, I. R. Petersen, and I. G. Vladimirov, “Discrete-time negative imaginary control systems using zero-order hold sampling,” Submitted to Automatica, 2025.\nK. Shi, et al. “Discrete-time integral resonant control of negative imaginary systems,” Control Engineering Practice, 2025."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#the-intuition-beyond-passivity",
+    "href": "research/negative-imaginary.html#the-intuition-beyond-passivity",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "The Intuition: Beyond Passivity",
+    "text": "The Intuition: Beyond Passivity\nIn control theory, we often use Passivity to guarantee stability. Passivity models systems where energy is dissipated, typically relating Force \\(\\to\\) Velocity.\nBut many physical systems (like piezoelectric actuators, optical mirrors, and MEMS) are defined by the relationship between Force \\(\\to\\) Position.\nNegative Imaginary (NI) theory fills this gap. It captures the “spring-like” behavior of flexible structures where position lags force by between 0 and 180 degrees.\n\n\n🏃 Passivity\nRelating Force to Velocity\n\nPhase Lag: \\([-90^\\circ, +90^\\circ]\\)\nPhysics: Dampers, Resistors.\nKey Limit: Requires velocity measurements (often noisy).\n\n\n\n📍 Negative Imaginary\nRelating Force to Position\n\nPhase Lag: \\([0^\\circ, -180^\\circ]\\)\nPhysics: Springs, Masses, Piezo-actuators.\nKey Advantage: Works directly with high-precision position sensors."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#the-holy-grail-of-robustness",
+    "href": "research/negative-imaginary.html#the-holy-grail-of-robustness",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "The “Holy Grail” of Robustness",
+    "text": "The “Holy Grail” of Robustness\nThe reason NI theory is so powerful for continuous-time systems is the DC Gain Stability Condition.\nIf you connect an NI Plant \\(G(s)\\) and an NI Controller \\(C(s)\\) in positive feedback, you don’t need to worry about high-frequency resonance modes (spillover). You only need to check the static (DC) gain:\n\n\n\n\n\n\n\\[\\lambda_{max}(G(0)C(0)) &lt; 1\\]\n\n\n\nThis simple algebraic check guarantees stability for infinite-dimensional systems, making it incredibly robust against unmodeled dynamics.\n[Image of feedback control loop diagram]"
+  },
+  {
+    "objectID": "research/negative-imaginary.html#my-contributions-to-the-theory",
+    "href": "research/negative-imaginary.html#my-contributions-to-the-theory",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "My Contributions to the Theory",
+    "text": "My Contributions to the Theory\nWhile the linear theory is well-established, real-world systems are often nonlinear or require transformation to fit the NI framework. My research expands the boundaries of Continuous-Time NI Theory in three key directions.\n\n\n1. Feedback Equivalence\nMaking systems NI\nNot all systems are naturally NI. I derived necessary and sufficient conditions to determine if a generic linear system can be transformed into an NI system via state feedback. This expands the applicability of NI controllers to a much wider class of plants.\n\nPaper: IEEE TAC, 2024\n\n\n\n2. Nonlinear NI Systems\nBeyond linear approximations\nReal actuators saturate and exhibit nonlinear stiffness. I extended the theory to Nonlinear NI systems, proving that the stability properties hold even when the system dynamics are nonlinear, provided the potential energy is shaped correctly.\n\nPaper: Automatica, 2023\n\n\n\n3. Networked Consensus\nConnecting multiple systems\nI investigated the consensus problem for networks of heterogeneous nonlinear NI systems. This is critical for applications like formation flying or coupled micro-grids, where multiple NI agents must synchronize despite having different internal dynamics.\n\nPaper: IEEE TAC, 2023"
+  },
+  {
+    "objectID": "research/negative-imaginary.html#what-is-the-ni-viewpoint",
+    "href": "research/negative-imaginary.html#what-is-the-ni-viewpoint",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "What is the NI viewpoint?",
+    "text": "What is the NI viewpoint?\nA useful way to understand negative imaginary (NI) systems is through the question:\nIf I apply a force, how does the position respond—and how does that interaction affect stability when I connect systems together?\nMany physical systems (flexible structures, compliant actuators, nanopositioners) are naturally described by an input–output pair of the form\n\ninput: force / actuation (or voltage mapped to force)\noutput: displacement / position\n\nFor such systems, the most relevant “interaction variable” is often position, not velocity. NI theory formalizes a structural property of this force → position map that leads to simple and robust stability results for feedback interconnections."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#a-physics-anchor-massspringdamper",
+    "href": "research/negative-imaginary.html#a-physics-anchor-massspringdamper",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "A physics anchor: mass–spring–damper",
+    "text": "A physics anchor: mass–spring–damper\nConsider the standard mass–spring–damper model [ mx + dx + kx = u, ] where (u) is an applied force and (x) is position. The transfer function from (u) to (x) is [ G(s) = = . ]\nTwo observations are worth keeping in mind:\n\nThe map (u x) (force → velocity) is naturally associated with power (ux), and this is the setting where passivity is most directly expressed.\nThe map (u x) (force → position) captures the elastic/inertial interaction directly. In many precision systems, (x) is measured with much higher fidelity than (x), and the stability-limiting dynamics are often tied to how position responds under force through flexible modes.\n\nNI theory is designed for the second viewpoint."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#ni-vs-passivity-same-spirit-different-variables",
+    "href": "research/negative-imaginary.html#ni-vs-passivity-same-spirit-different-variables",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "NI vs passivity: same spirit, different variables",
+    "text": "NI vs passivity: same spirit, different variables\nPassivity is an energy-balance concept most naturally tied to effort → flow pairs (e.g., force → velocity, voltage → current). It is powerful, but it is not always the most natural description when the measured or controlled output is position.\nNI systems can be viewed as a complementary framework tailored to force → position interactions that arise from spring–mass physics and flexible dynamics.\nA practical way to remember the distinction is:\n\npassivity is “well-behaved” in the power variable (u^y),\nNI is “well-behaved” in an integrated variable, where (y) behaves like a generalized position.\n\nThis is why NI methods are often natural for flexible structures and nanopositioning: they match the sensors (position) and the dominant physics (compliance/inertia)."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#a-compact-frequency-domain-signature",
+    "href": "research/negative-imaginary.html#a-compact-frequency-domain-signature",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "A compact frequency-domain signature",
+    "text": "A compact frequency-domain signature\nFor linear time-invariant systems, NI is commonly characterized in the frequency domain.\nFor a (square) transfer matrix (G(s)), the NI property imposes a sign condition on [ j(G(j)-G(j)^*), &gt;0, ] together with mild regularity conditions (e.g., no poles in the open right-half plane, and appropriate behavior at poles on the imaginary axis in the “standard” definition).\nYou do not need this expression to use the intuition, but it is the mathematical object that encodes the idea that the force → position map has a structured phase behavior consistent with compliant physical dynamics."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#the-core-payoff-stability-of-interconnections",
+    "href": "research/negative-imaginary.html#the-core-payoff-stability-of-interconnections",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "The core payoff: stability of interconnections",
+    "text": "The core payoff: stability of interconnections\nNI theory is most valuable when you connect systems.\nSuppose (G(s)) is an NI plant and (C(s)) is an NI controller, and they are interconnected in positive feedback. Under standard NI assumptions, closed-loop stability can often be verified using a low-frequency (DC) condition of the form [ _{}!(G(0)C(0)) &lt; 1. ]\nThe key message is not the exact inequality—it is the type of result:\n\nstability can be concluded from a simple static gain check, without requiring accurate modeling of high-frequency flexible modes.\n\nThis is precisely the regime where spillover and unmodeled resonances make classical “model-accurate” design fragile. NI theory replaces detailed high-frequency modeling with a structural stability mechanism."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#where-ni-systems-appear-in-practice",
+    "href": "research/negative-imaginary.html#where-ni-systems-appear-in-practice",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "Where NI systems appear in practice",
+    "text": "Where NI systems appear in practice\nNI structure arises (or can be induced) in many systems where actuation interacts with compliance and inertia, including:\n\nflexible mechanical structures and lightly damped resonant systems,\nprecision positioning devices (e.g., piezo-actuated nanopositioners),\nelectromechanical systems where the dominant measured variable is displacement,\nnetworked physical systems where interaction is mediated through “spring-like” couplings.\n\nThis breadth is a major reason NI theory is useful: it captures a recurring physical pattern rather than a single application."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#what-i-work-on-in-ni-theory",
+    "href": "research/negative-imaginary.html#what-i-work-on-in-ni-theory",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "What I work on in NI theory",
+    "text": "What I work on in NI theory\nMy research develops NI theory and NI-based control design in directions motivated by modern implementation constraints:\n\nDiscrete-time / digital NI theory\nExtending NI concepts to sampled-data and discrete-time settings so that stability mechanisms remain valid when controllers are implemented digitally.\nNonlinear NI perspectives\nDeveloping NI-like stability mechanisms for nonlinear systems, where physical structure (e.g., potential energy) can be used to preserve the interaction properties behind NI stability.\nNI ideas in modern control workflows\nConnecting NI structure with learning-enabled control design, with the aim of preserving stability-oriented structure while leveraging data-driven components.\n\n(Links to papers and technical details can be placed below in the “Selected work” section.)"
+  },
+  {
+    "objectID": "research/negative-imaginary.html#selected-work-optional",
+    "href": "research/negative-imaginary.html#selected-work-optional",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "Selected work (optional)",
+    "text": "Selected work (optional)\n\nPaper / preprint 1 (link)\nPaper / preprint 2 (link)\nPaper / preprint 3 (link)"
+  },
+  {
+    "objectID": "research/negative-imaginary.html#the-intuition-pushing-a-spring",
+    "href": "research/negative-imaginary.html#the-intuition-pushing-a-spring",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "1. The Intuition: “Pushing a Spring”",
+    "text": "1. The Intuition: “Pushing a Spring”\nWhat is the most intuitive way to think about a Negative Imaginary (NI) system?\nThink of a simple mechanical spring with a position sensor. When you apply a force (input) to a spring, it stretches to a certain position (output).\n\nThe displacement is in phase with the force at low frequencies (DC).\nAs you vibrate it faster (near resonance), the position starts to lag.\nCrucially, the position lag never exceeds 180 degrees.\n\nThis specific phase behavior—where the output “sloshes” behind the input but doesn’t completely flip sign—is the essence of Negative Imaginary systems.\n\n\n🔬 Nanopositioners\nIn Atomic Force Microscopy (AFM), the piezoelectric stage is an NI system. We apply voltage (Force) and measure displacement (Position).\n\n\n🦾 Flexible Robotics\nA lightweight robotic arm is flexible. The relationship between torque applied at the joint and the angle of the tip is often Negative Imaginary.\n\n\n⚡ Power Grids\nIn modern power systems, the “Swing Equation” relating power injection to rotor angle exhibits NI properties, which is key for frequency control."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#ni-vs.-passivity-the-distinction",
+    "href": "research/negative-imaginary.html#ni-vs.-passivity-the-distinction",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "2. NI vs. Passivity: The Distinction",
+    "text": "2. NI vs. Passivity: The Distinction\nEngineers are often familiar with Passivity, but NI is distinct. The difference lies in what we measure.\n\n\n\n\n\n\n\n\nFeature\nPassivity\nNegative Imaginary\n\n\n\n\nInput \\(\\to\\) Output\nForce \\(\\to\\) Velocity\nForce \\(\\to\\) Position\n\n\nPhysics\nDampers, Resistors (Dissipative)\nSprings, Capacitors (Energy Storing)\n\n\nPhase Lag\n\\([-90^\\circ, +90^\\circ]\\)\n\\([0^\\circ, -180^\\circ]\\)\n\n\nSensors\nVelocity sensors (often noisy)\nPosition sensors (clean, precise)"
+  },
+  {
+    "objectID": "research/negative-imaginary.html#formal-definition",
+    "href": "research/negative-imaginary.html#formal-definition",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "3. Formal Definition",
+    "text": "3. Formal Definition\nMathematically, we define an NI system by looking at its frequency response.\n\n\n\n\n\n\nNoteDefinition: Negative Imaginary System\n\n\n\nA square, real, rational, proper transfer function matrix \\(G(s)\\) is Negative Imaginary if:\n\n\\(G(s)\\) has no poles in the open Right Half Plane (RHP).\nFor all \\(\\omega &gt; 0\\) such that \\(j\\omega\\) is not a pole of \\(G(s)\\), the following condition holds: \\[\nj(G(j\\omega) - G^*(j\\omega)) \\geq 0\n\\]\n\n\n\nIn simpler terms, this ensures the Nyquist plot of \\(G(j\\omega)\\) stays strictly in the “lower half” of the complex plane for positive frequencies."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#the-stability-result-the-holy-grail",
+    "href": "research/negative-imaginary.html#the-stability-result-the-holy-grail",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "4. The Stability Result (The “Holy Grail”)",
+    "text": "4. The Stability Result (The “Holy Grail”)\nThe reason NI theory is so powerful is the Simple Stability Condition.\nWhen you connect an NI Plant \\(G(s)\\) with a strictly NI Controller \\(C(s)\\) in a positive feedback loop, the internal stability of the closed-loop system is guaranteed if and only if the DC Gain Condition is satisfied:\n\n\n\n\n\n\nTip\n\n\n\n\\[\\lambda_{max}(G(0)C(0)) &lt; 1\\]\n\n\nWhy this matters: This condition depends only on the static (DC) gain. It is independent of high-frequency dynamics. This means your system is robust against unmodeled high-frequency resonances (spillover), a major advantage over standard robust control methods like \\(H_\\infty\\)."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#history-my-contributions",
+    "href": "research/negative-imaginary.html#history-my-contributions",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "5. History & My Contributions",
+    "text": "5. History & My Contributions\nNegative Imaginary theory is a relatively modern development in control theory. My work focuses on expanding this theory from linear, continuous cases to complex, nonlinear, and networked scenarios.\n%%| fig-width: 100% timeline title Evolution of Negative Imaginary Theory 2008 : Foundational Theory : (Lanzon & Petersen) introduced the NI definition and stability theorem. 2010 : Output Feedback : (Xiong et al.) Synthesis methods for NI controllers. 2018 : Descriptor Systems : Extensions to more complex algebraic-differential equations. 2021-2023 : MY CONTRIBUTION : Networked NI Systems (Shi et al.) : Consensus for heterogeneous agents. 2023-2024 : MY CONTRIBUTION : Nonlinear NI Theory (Shi et al.) : Extension to nonlinear dynamics & switching. 2024-Present : MY CONTRIBUTION : State Feedback Equivalence (Shi et al.) : Transforming general systems into NI forms."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#physical-interpretations",
+    "href": "research/negative-imaginary.html#physical-interpretations",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "2. Physical Interpretations",
+    "text": "2. Physical Interpretations\nWhile the definition is mathematical, the NI property naturally captures the dynamics of specific physical relationships.\n\nThe Canonical Example: Mass-Spring System\nThe most fundamental example of an NI system is a mechanical mass-spring-damper system where: * Input: Force applied to the mass. * Output: Position (displacement) of the mass.\n[Image of mass spring damper system diagram]\nUnlike passive systems (which relate force to velocity), the force-to-position map inherently exhibits the phase lag characteristic of NI systems.\n\n\nEngineering Applications\nNI theory has proven highly effective in modeling and controlling a wide range of engineering systems beyond simple mechanics.\n\n\n\n🔬 Nanopositioning\nIn Atomic Force Microscopy (AFM), the piezoelectric tube scanner is modeled as an NI system (voltage input \\(\\to\\) displacement output).\n\n\n⚡ Power Systems\nThe swing equation in power grids, which relates power injection to rotor angle, exhibits NI behavior. This is critical for modern frequency control.\n\n\n🔌 Electrical Circuits\nCertain electrical circuits, particularly those composed of specific arrangements of capacitors and inductors (energy storage elements), satisfy the NI property."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#the-core-value-robust-stability",
+    "href": "research/negative-imaginary.html#the-core-value-robust-stability",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "3. The Core Value: Robust Stability",
+    "text": "3. The Core Value: Robust Stability\nThe primary motivation for using NI theory is the Simple Stability Condition.\nWhen an NI Plant \\(G(s)\\) is interconnected with an NI Controller \\(C(s)\\) in a positive feedback loop, the closed-loop system is internally stable if and only if the DC Gain Condition is satisfied:\n\n\n\n\n\n\nTip\n\n\n\n\\[\\lambda_{max}(G(0)C(0)) &lt; 1\\]\n\n\n[Image of feedback control loop block diagram]\nWhy is this powerful? This condition depends only on the static (DC) gain. It is independent of the system’s high-frequency dynamics. This guarantees robust stability against unmodeled high-frequency spillover (e.g., infinite resonance modes in a flexible beam), provided those modes remain NI."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#comparison-with-passivity",
+    "href": "research/negative-imaginary.html#comparison-with-passivity",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "4. Comparison with Passivity",
+    "text": "4. Comparison with Passivity\nNow that we understand NI systems, how do they relate to the more famous “Passivity” theory?\nBoth are energy-based stability tools, but they apply to different physical setups. Passivity is about Dissipation (Force \\(\\to\\) Velocity), while NI is about Positioning (Force \\(\\to\\) Position).\n\n\n\n\n\n\n\n\nFeature\nPassivity\nNegative Imaginary\n\n\n\n\nTypical I/O\nForce \\(\\to\\) Velocity\nForce \\(\\to\\) Position\n\n\nPhysical Analogy\nDamper / Resistor\nSpring / Capacitor\n\n\nPhase Lag\n\\([-90^\\circ, +90^\\circ]\\)\n\\([0^\\circ, -180^\\circ]\\)\n\n\nBest For…\nDamping vibrations\nPrecision positioning"
+  },
+  {
+    "objectID": "research/negative-imaginary.html#evolution-of-the-theory",
+    "href": "research/negative-imaginary.html#evolution-of-the-theory",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "5. Evolution of the Theory",
+    "text": "5. Evolution of the Theory\nNegative Imaginary theory has evolved rapidly from a linear tool for flexible structures to a general framework for nonlinear and networked systems.\n%%| fig-width: 100% timeline title Evolution of NI Theory 2008 : Linear Foundation : Definition & Stability Theorem (Lanzon & Petersen) 2018 : Nonlinear Extension : Dissipativity Definition introduced. 2021-2023 : Networked Systems : My Contribution: Consensus for heterogeneous NI agents. 2023-2024 : Nonlinear & Switching : My Contribution: Proving stability for switching nonlinear dynamics. 2024-Present : State Feedback Equivalence : My Contribution: Conditions to transform general systems into NI forms."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#the-canonical-example-mechanical-systems",
+    "href": "research/negative-imaginary.html#the-canonical-example-mechanical-systems",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "2. The Canonical Example: Mechanical Systems",
+    "text": "2. The Canonical Example: Mechanical Systems\nThe most intuitive physical realization of an NI system is a mechanical structure with collocated force actuators and position sensors.\nConsider a mass connected to a nonlinear spring: * Input (\\(u\\)): Force applied to the mass. * Output (\\(y\\)): Position (displacement) of the mass.\n\n\n\nMass-spring system illustration\n\n\nRegardless of whether the spring is linear (\\(F=kx\\)) or nonlinear (\\(F=kx^3\\)), the system naturally satisfies the condition \\(\\dot{V} \\leq u \\dot{y}\\). This makes NI theory a “natural language” for: * Micro-Robotics (Piezo-actuated stages) * Flexible Structures (Optical mirrors, crane arms) * Power Systems (Swing dynamics of generators)"
+  },
+  {
+    "objectID": "research/negative-imaginary.html#the-power-of-ni-robust-stability",
+    "href": "research/negative-imaginary.html#the-power-of-ni-robust-stability",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "3. The Power of NI: Robust Stability",
+    "text": "3. The Power of NI: Robust Stability\nThe primary reason we study NI theory is for Robust Control.\nIn real engineering, models are never perfect. A flexible beam might have 100 vibration modes, but we might only model the first 3. Standard control methods often fail (go unstable) when those unmodeled high-frequency modes (“spillover”) get excited.\nNI theory offers a powerful guarantee. If you connect an NI Plant \\(G\\) with an NI Controller \\(C\\) in a positive feedback loop, the system is stable if and only if:\n\n\n\n\n\n\nTip\n\n\n\nDC Gain Condition: \\(\\quad \\lambda_{max}(G(0)C(0)) &lt; 1\\)\n\n\n[Image of feedback control loop block diagram]\nThe Key Insight: We only need to check the stability at “Zero Frequency” (DC). If it works at DC, the theory guarantees it works for all frequencies, even the unmodeled ones."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#ni-vs.-passivity-whats-the-difference",
+    "href": "research/negative-imaginary.html#ni-vs.-passivity-whats-the-difference",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "4. NI vs. Passivity: What’s the Difference?",
+    "text": "4. NI vs. Passivity: What’s the Difference?\nEngineers often confuse NI with Passivity. The distinction lies in the physical variables we measure.\n\n\n\n\n\n\n\n\nFeature\nPassivity\nNegative Imaginary\n\n\n\n\nInput \\(\\to\\) Output\nForce \\(\\to\\) Velocity\nForce \\(\\to\\) Position\n\n\nSupply Rate\n\\(u^T y\\)\n\\(u^T \\dot{y}\\)\n\n\nPhase Lag\n\\([-90^\\circ, +90^\\circ]\\)\n\\([0^\\circ, -180^\\circ]\\)\n\n\nSensors\nVelocity (Noisy)\nPosition (Clean, Precise)\n\n\n\n\n\n\nPhase plot comparison: Passivity vs NI"
+  },
+  {
+    "objectID": "research/negative-imaginary.html#real-world-examples",
+    "href": "research/negative-imaginary.html#real-world-examples",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "2. Real-World Examples",
+    "text": "2. Real-World Examples\nThe NI property naturally arises in a wide variety of physical systems.\n\nMechanical Systems with Collocated Sensors\nA typical example of an NI system is a mechanical structure with collocated force actuators and position sensors.\nConsider a generic flexible mechanical body (e.g., a beam, a bridge, or a robotic link) with the following input and output ports:\n\nInput (\\(u\\)): Force (or Torque) applied at a specific point.\nOutput (\\(y\\)): Displacement (or Angle) measured at the same point.\n\nIn such a configuration, the energy dissipation inequality shown above is guaranteed by the conservation of energy. Hence, regardless of the complexity of the structure, the relationship between the applied force and the resulting displacement inherently satisfies the NI property.\nBelow are some example NI systems in engineering applications:\n\n\n\n🔬 Nanopositioning\nIn Atomic Force Microscopy (AFM), piezoelectric actuators are used to scan samples. The dynamics from applied voltage (Force) to scanner displacement (Position) are NI.\n\n\n🦾 Robotic Arms\nLightweight or soft robotic manipulators often exhibit significant flexibility. The dynamic relationship between the torque applied at a joint and the resulting joint angle captures these flexible modes and satisfies the NI property.\n\n\n⚡ Power Systems\nModern power grids can be modeled as NI systems. Specifically, the “Swing Equation” which relates power injection to rotor angle is an NI dynamic, essential for frequency stability."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#ni",
+    "href": "research/negative-imaginary.html#ni",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "NI",
+    "text": "NI"
+  },
+  {
+    "objectID": "research/negative-imaginary.html#stability-contributions",
+    "href": "research/negative-imaginary.html#stability-contributions",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "3. Stability & Contributions",
+    "text": "3. Stability & Contributions\nThe core utility of NI theory is robust stability. A fundamental result is that an NI system can be stabilized using another strictly NI system in a positive feedback configuration.\nOne of my research contribution is in providing a nonlinear NI systems theory. See the following articles:\n\nMTNS2020\nIEEE TAC 2023\n\n\nKey Research Articles\n\nNecessary and sufficient conditions for state feedback equivalence to negative imaginary systems IEEE Transactions on Automatic Control, 2024 I derived the mathematical conditions to determine when a general system can be transformed into an NI system via state feedback, significantly expanding the applicability of NI control methods.\n\n\nMaking nonlinear systems negative imaginary via state feedback Automatica, 2023 This work extends the theory to the nonlinear domain. We proved that by reshaping the potential energy (via feedback), a nonlinear system can be rendered NI, ensuring stability even with nonlinear stiffness.\n\n\nOutput feedback consensus for networked heterogeneous nonlinear negative-imaginary systems IEEE Transactions on Automatic Control, 2023 I established stability results for networks of multiple heterogeneous NI agents. This provides a theoretical foundation for synchronizing robotic swarms or coupled microgrids."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#my-contributions",
+    "href": "research/negative-imaginary.html#my-contributions",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "3. My Contributions",
+    "text": "3. My Contributions\nThe core utility of NI theory is robust stability. A fundamental result is that an NI system can be stabilized using another strictly NI system in a positive feedback configuration.\nOne of my research contributions is establishing a nonlinear NI systems theory. See the following articles:\n\nRobust output feedback consensus for networked identical nonlinear negative-imaginary systems (MTNS 2020)\nOutput feedback consensus for networked heterogeneous nonlinear negative-imaginary systems (IEEE TAC 2023)\n\n\nKey Research Articles\n\nNecessary and sufficient conditions for state feedback equivalence to negative imaginary systems IEEE Transactions on Automatic Control, 2024 I derived the mathematical conditions to determine when a general system can be transformed into an NI system via state feedback, significantly expanding the applicability of NI control methods.\n\n\nMaking nonlinear systems negative imaginary via state feedback Automatica, 2023 This work extends the theory to the nonlinear domain. We proved that by reshaping the potential energy (via feedback), a nonlinear system can be rendered NI, ensuring stability even with nonlinear stiffness.\n\n\nOutput feedback consensus for networked heterogeneous nonlinear negative-imaginary systems IEEE Transactions on Automatic Control, 2023 I established stability results for networks of multiple heterogeneous NI agents. This provides a theoretical foundation for synchronizing robotic swarms or coupled microgrids."
+  },
+  {
+    "objectID": "research/negative-imaginary.html#stability",
+    "href": "research/negative-imaginary.html#stability",
+    "title": "Negative Imaginary Systems Theory",
+    "section": "3. Stability",
+    "text": "3. Stability\nThe core utility of NI theory is robust stability. A fundamental result is that an NI system can be stabilized using another strictly NI system in a positive feedback configuration.\nOne of my research contributions is establishing stability results for nonlinear NI systems. See the following articles:\n\nRobust output feedback consensus for networked identical nonlinear negative-imaginary systems (MTNS 2020)\nOutput feedback consensus for networked heterogeneous nonlinear negative-imaginary systems (IEEE TAC 2023)\n\nNote that these two articles only consider single NI systems and networked NI systems in a continuous-time setting. For other settings and the motivations of studying them, please see the corresponding Research Themes."
+  }
+]

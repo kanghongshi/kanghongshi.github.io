@@ -1,0 +1,70 @@
+---
+title: "Discrete-Time Negative Imaginary Systems"
+pagetitle: "Discrete-Time NI Systems | Kanghong Shi"
+toc: true
+page-layout: article
+---
+
+[< Back to Research Themes](../research.qmd)
+
+## 1. Motivation: From Continuous-Time Theory to Digital Implementation
+
+Negative imaginary (NI) systems theory is inherently formulated in continuous time, whereas **almost all practical controllers are implemented digitally**.
+
+In a digital control loop, a computer
+
+* samples plant outputs at discrete time instants,
+* computes control actions according to a discrete-time control law,
+* reconstructs a continuous-time control input via a zero-order hold (ZOH) device.
+
+As a consequence, the resulting discrete-time dynamics are only an approximation of the underlying continuous-time system and, in general, **do not preserve the same physical properties**.
+
+> **A key result of my work is that the NI property is an exception: it can be preserved under the sample-and-hold process.**
+
+---
+
+## 2. Zero-Order Hold and NI Preservation
+
+Consider a continuous-time system
+$$\dot x = f(x,u), \qquad y = h(x),$$
+which is negative imaginary. By definition, there exists a continuously differentiable, positive definite storage function \( V(x) \) (here, we consider the case without free body motion) such that
+\begin{equation}
+\dot V(x) \leq u^\top \dot y. \tag{1}
+\end{equation}
+
+Under zero-order hold, the input is held constant over each sampling interval. Integrating both sides of (1) over the time interval $[t_k,t_{k+1}]$ yields
+$$V(x(t_{k+1}))-V(x(t_k))\leq u(t_k)^\top bigl(y(t_{k+1})-y(t_k)\bigr).\tag{2}$$
+
+Suppose the discrete-time system obtained from the sample and hold process has the model:
+$$x_{k+1} = f_d(x_k,u_k),\qquad y_k = h(x_k).$$
+
+Then inequality (2) implies that the discrete-time system satisfies
+$$V(x_{k+1})-V(x_k)\leq u_k^\top \bigl(y_{k+1}-y_k\bigr). \tag{3}$$
+
+We call a discrete-time system satisfying (3) a **ZOH negative imaginary (ZOH-NI) system**.
+
+> **Importantly, (3) is a purely discrete-time dissipation inequality, expressed solely in terms of variables at the sampling instants.**
+
+::: {.callout-note}
+An important implication of this result is that, unlike passivity, the NI property can be preserved under zero-order hold sampling, whereas passivity is in general not preserved under ZOH discretization.
+:::
+
+---
+
+
+## 3. Stability of ZOH-NI Systems
+
+Once a continuous-time plant is implemented via sample and hold, stability must be analyzed and enforced at the **discrete-time closed-loop level**.
+
+This requires controller design and stability theory that are intrinsically discrete time, rather than relying on continuous-time analysis followed by numerical discretization.
+
+---
+
+
+## 4. My Contribution
+
+I developed a discrete-time control framework for ZOH-NI systems and established corresponding stability results. This framework enables **direct digital controller design** for sampled-data NI systems, avoiding the commonly used approach of first designing a continuous-time controller and subsequently discretizing it.
+
+Also, there is no approximation involved in this control design method. Hence, the stabilizing controller is reliable.
+
+1. **[Discrete-time Negative Imaginary Systems from ZOH Sampling](https://www.sciencedirect.com/science/article/pii/S2405896324019232)** (MTNS 2024)

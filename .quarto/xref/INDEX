@@ -1,0 +1,23 @@
+{
+  "index.qmd": {
+    "index.html": "87a5961b"
+  },
+  "about.qmd": {
+    "about.html": "ac145fdd"
+  },
+  "research.qmd": {
+    "research.html": "10fe0961"
+  },
+  "CV.qmd": {
+    "CV.html": "cb521f77"
+  },
+  "research/negative-imaginary.qmd": {
+    "negative-imaginary.html": "bcb9e748"
+  },
+  "research/networked-NI.qmd": {
+    "networked-NI.html": "50cb70ce"
+  },
+  "research/discrete-time-ni.qmd": {
+    "discrete-time-ni.html": "752fa9d1"
+  }
+}

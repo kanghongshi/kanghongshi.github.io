@@ -1,0 +1,69 @@
+---
+title: "Networked Negative Imaginary Systems"
+pagetitle: "Networked NI Systems | Kanghong Shi"
+toc: true
+page-layout: article
+---
+
+[< Back to Research Themes](../research.qmd)
+
+## 1. Motivation: From Single Systems to Networks
+
+Many modern engineering systems are not isolated, but consist of **multiple dynamical subsystems interacting over a network**.
+
+Examples include:
+
+* groups of robots coordinating motion,
+* power generators interacting through transmission networks,
+* flexible structures coupled via mechanical or electrical links.
+
+While the negative imaginary (NI) property provides powerful stability guarantees for *single* systems, **interconnecting multiple NI systems introduces new challenges**:
+
+* communication may be local rather than centralized,
+* network topology directly affects stability and performance,
+* systems in the network might have heterogeneous dynamics.
+
+How to achieve stability for a network of nonlinear NI systems?
+
+---
+
+
+## 2. Networked NI Systems: Core Idea
+
+Consider a collection of subsystems that are NI.
+
+In a networked setting:
+
+* the input to each agent depends on **relative outputs** of its neighbors,
+* the interconnection is typically described by a graph Laplacian or incidence matrix,
+* feedback is distributed and does not rely on global information.
+
+A key observation underlying my work is:
+
+> **NI property still exists in the augmented system describing all the subsystems connected according to the graph topology.**
+
+---
+
+## 3. Consensus
+
+One important class of problems in multi-agent systems is **consensus**, where agents aim to agree on a common output or trajectory.
+
+
+## 4. My Contributions
+
+I established a control framework for the **output feedback consensus** for nonlinear NI systems under both:
+
+* identical agent dynamics,
+* heterogeneous agent dynamics.
+
+These results extend classical consensus theory beyond passive systems and linear NI systems, and apply to systems with **free body motion**.
+
+1. **[Robust Output Feedback Consensus for Networked Identical Nonlinear Negative-Imaginary Systems](https://www.sciencedirect.com/science/article/pii/S2405896321005395)** *(MTNS 2020)*
+
+2. **[Robust Output Feedback Consensus for Networked Heterogeneous Nonlinear Negative-Imaginary Systems](https://ieeexplore.ieee.org/abstract/document/9318395)** *(ANZCC 2020)*
+
+3. **[Output Feedback Consensus for Networked Heterogeneous Nonlinear Negative-Imaginary Systems With Free-Body Motion](https://ieeexplore.ieee.org/abstract/document/9947214)** *(IEEE TAC 2023)*
+
+
+## 5. Applications
+The results in the articles listed above have been further extended for applications in power systems control. For more details, explore the topic .
