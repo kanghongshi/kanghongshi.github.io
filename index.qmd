@@ -6,7 +6,7 @@ page-layout: full
 ::: {.home-layout}
 
 ::: {.home-left}
-![](images/Kanghong.JPG){.profile-photo}
+![](images/Kanghong.jpg){.profile-photo}
 
 ::: {.name-block}
 **Kanghong Shi**<br>
