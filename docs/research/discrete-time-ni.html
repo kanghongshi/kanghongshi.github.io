@@ -211,7 +211,7 @@ window.Quarto = {
 <p>Consider a continuous-time system <span class="math display">\[\dot x = f(x,u), \qquad y = h(x),\]</span> which is negative imaginary. By definition, there exists a continuously differentiable, positive definite storage function ( V(x) ) (here, we consider the case without free body motion) such that <span class="math display">\[\begin{equation}
 \dot V(x) \leq u^\top \dot y. \tag{1}
 \end{equation}\]</span></p>
-<p>Under zero-order hold, the input is held constant over each sampling interval. Integrating both sides of (1) over the time interval <span class="math inline">\([t_k,t_{k+1}]\)</span> yields <span class="math display">\[V(x(t_{k+1}))-V(x(t_k))\leq u(t_k)^\top bigl(y(t_{k+1})-y(t_k)\bigr).\tag{2}\]</span></p>
+<p>Under zero-order hold, the input is held constant over each sampling interval. Integrating both sides of (1) over the time interval <span class="math inline">\([t_k,t_{k+1}]\)</span> yields <span class="math display">\[V(x(t_{k+1}))-V(x(t_k))\leq u(t_k)^\top \bigl(y(t_{k+1})-y(t_k)\bigr).\tag{2}\]</span></p>
 <p>Suppose the discrete-time system obtained from the sample and hold process has the model: <span class="math display">\[x_{k+1} = f_d(x_k,u_k),\qquad y_k = h(x_k).\]</span></p>
 <p>Then inequality (2) implies that the discrete-time system satisfies <span class="math display">\[V(x_{k+1})-V(x_k)\leq u_k^\top \bigl(y_{k+1}-y_k\bigr). \tag{3}\]</span></p>
 <p>We call a discrete-time system satisfying (3) a <strong>ZOH negative imaginary (ZOH-NI) system</strong>.</p>
@@ -324,7 +324,7 @@ Note
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/kanghongshi\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

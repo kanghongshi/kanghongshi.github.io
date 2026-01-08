@@ -33,7 +33,7 @@ which is negative imaginary. By definition, there exists a continuously differen
 \end{equation}
 
 Under zero-order hold, the input is held constant over each sampling interval. Integrating both sides of (1) over the time interval $[t_k,t_{k+1}]$ yields
-$$V(x(t_{k+1}))-V(x(t_k))\leq u(t_k)^\top bigl(y(t_{k+1})-y(t_k)\bigr).\tag{2}$$
+$$V(x(t_{k+1}))-V(x(t_k))\leq u(t_k)^\top \bigl(y(t_{k+1})-y(t_k)\bigr).\tag{2}$$
 
 Suppose the discrete-time system obtained from the sample and hold process has the model:
 $$x_{k+1} = f_d(x_k,u_k),\qquad y_k = h(x_k).$$
