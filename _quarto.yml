@@ -8,6 +8,7 @@ execute:
 
 website:
   title: "Kanghong Shi"
+  favicon: favicon.ico
   site-url: "https://kanghongshi.com"
   navbar:
     pinned: true         # <--- ADD THIS LINE HERE
