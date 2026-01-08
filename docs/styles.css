@@ -1,0 +1,296 @@
+/* --- 1. Main Layout Container --- */
+.home-layout {
+  max-width: 100%;
+  margin: 2rem 0 4rem 0;
+  display: flex;
+  gap: 100px;       
+  align-items: flex-start;
+  padding-right: 20px;
+}
+
+/* --- 2. Left Column (Photo) --- */
+.home-left {
+  width: 180px;        
+  flex: 0 0 180px;     
+  font-size: 0.9rem;
+  
+  /* NEW: Centers everything in this column */
+  text-align: center;  
+}
+
+/* --- 3. Right Column (Content) --- */
+.home-right {
+  flex: 1;             
+  min-width: 0;        
+}
+
+/* --- 4. Responsive (Mobile) --- */
+@media (max-width: 800px) {
+  .home-layout {
+    flex-direction: column; 
+    gap: 30px;
+  }
+  .home-left {
+    width: 100%;
+  }
+  .profile-photo {
+    width: 180px;      
+    margin: 0 auto;
+  }
+}
+
+/* --- 5. Styling Details --- */
+
+/* Photo Styling */
+.profile-photo {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Name Block */
+.name-block {
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+/* Links List */
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+  /* NEW: Ensures links are centered in the column */
+  align-items: center; 
+}
+
+.links a {
+  text-decoration: none;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+  width: fit-content;
+}
+
+.links a:hover {
+  color: #000;
+  border-bottom-color: #000;
+}
+
+/* Address */
+.address {
+  color: #666;
+  font-size: 0.85rem;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+/* Typography for Right Column */
+h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+.intro {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 1.5rem 0;
+  line-height: 1.6;
+}
+
+
+
+/* --- SUBTLE LINKS (General Text) --- */
+.intro a,
+.cv-entry a {
+  color: #444;
+  text-decoration: none;
+  border-bottom: 1px dotted #aaa;
+  transition: all 0.2s ease;
+}
+
+.intro a:hover,
+.cv-entry a:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
+  background-color: #f0f0f0;
+}
+
+/* --- BUTTONS (Fixing the Conflict) --- */
+.cta {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 2.5rem; 
+}
+
+/* Base styles for BOTH buttons */
+a.btn-primary,
+a.btn-secondary {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none !important; /* No text underline */
+  border-bottom: none; /* Reset the dotted line from above */
+  transition: all 0.2s ease;
+}
+
+/* Primary (Black) */
+a.btn-primary {
+  background: #222;
+  color: #fff !important;
+  /* !important ensures this solid border overrides the "border-bottom: none" */
+  border: 1px solid #222 !important; 
+}
+
+a.btn-primary:hover {
+  background: #444;
+  border-color: #444 !important;
+}
+
+/* Secondary (White) */
+a.btn-secondary {
+  background: transparent;
+  color: #222 !important;
+  /* !important ensures the bottom line reappears */
+  border: 1px solid #ccc !important; 
+}
+
+a.btn-secondary:hover {
+  background: #f9f9f9;
+  border-color: #999 !important;
+}
+
+/* --- CV ALIGNMENT FIXED --- */
+
+.cv-entry {
+  margin-bottom: 2rem;
+}
+
+/* Target the wrapper div */
+.cv-header {
+  width: 100%;
+}
+
+/* Target the PARAGRAPH inside the div (This is the real fix) */
+.cv-header p {
+  display: flex;
+  justify-content: space-between; /* Pushes items apart */
+  align-items: baseline;          /* Aligns text bottom */
+  width: 100%;
+  margin-bottom: 0.2rem;          /* Small gap below header */
+  padding: 0;
+}
+
+/* Job Title */
+.cv-title {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: #000;
+}
+
+/* Date */
+.cv-date {
+  font-weight: 500;
+  color: #666;
+  text-align: right;
+  /* Ensure it doesn't wrap */
+  white-space: nowrap; 
+}
+
+/* Institution */
+.cv-institution {
+  font-style: italic;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+/* --- Bibliography Styling --- */
+/* Targets the ordered lists inside the Publications section */
+section#publications ol {
+  padding-left: 1.5rem;
+}
+
+section#publications li {
+  padding-left: 0.5rem;
+  margin-bottom: 0.8rem; /* Adds breathing room between papers */
+}
+
+/* --- Research Hub (Image Cards) --- */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+.research-card {
+  /* 1. Keep your original look */
+  background-color: #f8f9fa; 
+  border-radius: 8px; /* Your original radius */
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+  
+  /* 2. Structural changes for images */
+  padding: 0; /* REMOVED: So image touches the edges */
+  overflow: hidden; /* ADDED: This crops the image corners to match border-radius */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.research-card:hover {
+  transform: translateY(-3px);
+  background-color: #fff;
+  border-color: #e9ecef;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+/* 3. New Class for the Image Area */
+.card-image {
+  width: 100%;
+  height: 200px; /* Fixed height for consistency (approx 3:2 ratio) */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid rgba(0,0,0,0.05); /* Subtle divider */
+}
+
+/* 4. New Class for the Text Area (Restores your original padding) */
+.card-content {
+  padding: 2rem; /* The original padding moves here */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Text Styles (Unchanged) */
+.research-card h3 {
+  margin-top: 0; /* Removed top margin since image is above it */
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.research-card p {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+}
+
+.card-link {
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #ddd;
+  align-self: flex-start;
+  padding-bottom: 2px;
+  transition: border-color 0.2s;
+}
+
+.research-card:hover .card-link {
+  border-bottom-color: #000;
+}
