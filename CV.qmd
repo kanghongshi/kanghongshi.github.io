@@ -74,15 +74,16 @@ page-layout: article
 
 ### Journal Articles
 
-1.  **K. Shi**, E. Khodabakhshi, P. Biswas, I. R. Petersen, and S. R. Moheimani, "Discrete-time HIGS based digital control of negative imaginary systems," *Control Engineering Practice*, vol. 163, p. 106386, 2025.
-2.  **K. Shi**, I. R. Petersen, and I. G. Vladimirov, "Necessary and sufficient conditions for state feedback equivalence to negative imaginary systems," *IEEE Transactions on Automatic Control*, vol. 69, no. 7, pp. 4657–4672, 2024.
-3.  **K. Shi**, N. Nikooienejad, I. R. Petersen, and S. O. R. Moheimani, "Negative imaginary control using hybrid integrator-gain systems: Application to mems nanopositioner," *IEEE Transactions on Control Systems Technology*, vol. 32, no. 3, pp. 718–730, 2024.
-4.  **K. Shi**, I. R. Petersen, and I. G. Vladimirov, "Output feedback consensus for networked heterogeneous nonlinear negative-imaginary systems with free body motion," *IEEE Transactions on Automatic Control*, vol. 68, no. 9, pp. 5536–5543, 2023.
-5.  **K. Shi**, I. R. Petersen, and I. G. Vladimirov, "Making nonlinear systems negative imaginary via state feedback," *Automatica*, vol. 155, p. 111127, 2023.
+1.  **K. Shi**, I. R. Petersen, and I. G. Vladimirov, "Discrete-time negative imaginary control systems using zero-order hold sampling," To appear in *Automatica*, 2026.
+2.  **K. Shi**, E. Khodabakhshi, P. Biswas, I. R. Petersen, and S. R. Moheimani, "Discrete-time HIGS based digital control of negative imaginary systems," *Control Engineering Practice*, vol. 163, p. 106386, 2025.
+3.  **K. Shi**, I. R. Petersen, and I. G. Vladimirov, "Necessary and sufficient conditions for state feedback equivalence to negative imaginary systems," *IEEE Transactions on Automatic Control*, vol. 69, no. 7, pp. 4657–4672, 2024.
+4.  **K. Shi**, N. Nikooienejad, I. R. Petersen, and S. O. R. Moheimani, "Negative imaginary control using hybrid integrator-gain systems: Application to mems nanopositioner," *IEEE Transactions on Control Systems Technology*, vol. 32, no. 3, pp. 718–730, 2024.
+5.  **K. Shi**, I. R. Petersen, and I. G. Vladimirov, "Output feedback consensus for networked heterogeneous nonlinear negative-imaginary systems with free body motion," *IEEE Transactions on Automatic Control*, vol. 68, no. 9, pp. 5536–5543, 2023.
+6.  **K. Shi**, I. R. Petersen, and I. G. Vladimirov, "Making nonlinear systems negative imaginary via state feedback," *Automatica*, vol. 155, p. 111127, 2023.
 
 ### Conference Proceedings
 
-1.  **K. Shi**, R. Wang, and I. R. Manchester, "Negative imaginary neural ODEs: Learning to control mechanical systems with stability guarantees," in *Proceedings of the 13th IFAC Symposium on Nonlinear Control Systems*, 2025. (To appear)
+1.  **K. Shi**, R. Wang, and I. R. Manchester, "Negative imaginary neural ODEs: Learning to control mechanical systems with stability guarantees," *IFAC-PapersOnLine*, vol. 59, no. 19, pp. 358–363, 2025.
 2.  **K. Shi** and I. R. Petersen, "Hybrid integrator-gain system based integral resonant controllers for negative imaginary systems," in *2024 IEEE 63rd Conference on Decision and Control (CDC)*, pp. 2379–2384, 2024.
 3.  Y. Chen, **K. Shi**, I. R. Petersen, and E. L. Ratnam, "Unified control of voltage, frequency and angle in electrical power systems: A passivity and negative-imaginary based approach," in *2024 IEEE 63rd Conference on Decision and Control (CDC)*, pp. 5783–5788, 2024.
 4.  **K. Shi**, I. R. Petersen, and I. G. Vladimirov, "Discrete-time negative imaginary systems from ZOH sampling," *IFAC-PapersOnLine*, vol. 58, no. 17, pp. 214–219, 2024.
@@ -98,9 +99,9 @@ page-layout: article
 14. **K. Shi**, I. G. Vladimirov, and I. R. Petersen, "Robust output feedback consensus for networked heterogeneous nonlinear negative-imaginary systems," in *2020 Australian and New Zealand Control Conference (ANZCC)*, pp. 214–219, 2020.
 
 ### Preprints & Under Review
-
-1.  **K. Shi**, R. Wang, and I. R. Manchester, "Negative imaginary neural ODEs: Learning to control mechanical systems with stability guarantees," Submitted to *Automatica*, 2025.
-2.  Y. Chen, **K. Shi**, I. R. Petersen, and E. L. Ratnam, "Nonlinear negative imaginary systems with actuator saturation: An application to power systems," Submitted to *IEEE Transactions on Automatic Control*, 2025.
-3.  **K. Shi**, I. R. Petersen, and I. G. Vladimirov, "Discrete-time negative imaginary control systems using zero-order hold sampling," Submitted to *Automatica*, 2025.
-4.  E. L. Ratnam, Y. Chen, **K. Shi**, and I. R. Petersen, "Negative imaginary grids," Invited paper in preparation for *Annual Review of Control, Robotics, and Autonomous Systems*, 2025.
+1.  **K. Shi**, and I. R. Manchester, "Absolute Stability of Nonlinear Negative Imaginary Systems with Application to Potential Energy Shaping," Submitted to *IEEE Transactions on Automatic Control*, 2026.
+2.  **K. Shi**, D. Dadkhah, I. R. Petersen, and S. O. R. Moheimani, "Digital Control of Negative Imaginary Systems Using Discrete-Time Multi-HIGS: Application to a Dual-Stage MEMS Force Sensor," Submitted to *IEEE Transactions on Control Systems Technology*, 2026.
+1.  **K. Shi**, R. Wang, and I. R. Manchester, "Negative imaginary neural ODEs: Learning to control mechanical systems with stability guarantees," Submitted to *Automatica*, 2026.
+2.  Y. Chen, **K. Shi**, I. R. Petersen, and E. L. Ratnam, "Nonlinear negative imaginary systems with actuator saturation: An application to power systems," Submitted to *IEEE Transactions on Automatic Control*, 2026.
+4.  E. L. Ratnam, Y. Chen, **K. Shi**, and I. R. Petersen, "Negative imaginary grids," Invited paper in preparation for *Annual Review of Control, Robotics, and Autonomous Systems*, 2026.
 5.  **K. Shi**, E. Khodabakhshi, P. Biswas, I. R. Petersen, and S. O. R. Moheimani, "Discrete-time integral resonant control of negative imaginary systems: Application to a high-speed nanopositioner," *arXiv preprint:2406.16263*, 2024.
